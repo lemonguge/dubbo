@@ -26,6 +26,7 @@
 		<module>travel-api</module>
 		<module>travel-consumer</module>
 		<module>travel-provider</module>
+		<module>travel-consumer-xml</module>
 	</modules>
 
 
