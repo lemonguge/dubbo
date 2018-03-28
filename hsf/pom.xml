@@ -9,24 +9,31 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>travel</artifactId>
+	<artifactId>hsf</artifactId>
 	<packaging>pom</packaging>
 
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>${project.groupId}</groupId>
-				<artifactId>travel-api</artifactId>
+				<artifactId>api</artifactId>
+				<version>0.1.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>api-impl</artifactId>
 				<version>0.1.0-SNAPSHOT</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
 	<modules>
-		<module>travel-api</module>
-		<module>travel-consumer</module>
-		<module>travel-provider</module>
-		<module>travel-consumer-xml</module>
+		<module>api</module>
+		<module>api-impl</module>
+		<module>consumer-dubbo</module>
+		<module>provider-dubbo</module>
+		<module>provider-hsf</module>
+		<module>provider-mix</module>
 	</modules>
 
 </project>
