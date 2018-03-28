@@ -1,4 +1,4 @@
-package travel.controller;
+package cn.homjie.dubbo.travel.controller;
 
 import cn.homjie.dubbo.travel.api.ErrorCode;
 import cn.homjie.dubbo.travel.api.ErrorCode.StandardErrorCode;

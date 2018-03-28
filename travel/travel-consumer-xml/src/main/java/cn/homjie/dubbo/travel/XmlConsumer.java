@@ -1,4 +1,4 @@
-package travel;
+package cn.homjie.dubbo.travel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
